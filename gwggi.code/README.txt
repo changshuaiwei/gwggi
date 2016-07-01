@@ -1,17 +1,15 @@
-PROGRAM: PAMU
+PROGRAM: GWGGI
 
 DESCRIPTION: Genome Wide Joint Association Software
 
 AUTHOR: Changshuai Wei
 
-CONTACT: cwei@epi.msu.edu
+CONTACT: weichangshuai@gmail.com
 
 YEAR: 2011
 
 LICENSE: Released under GNU General Public License, v2 (see
 COPYING.txt)
-
-DOCUMENTATION: http://www.msu.edu/~changs18/software.html
 
 
 COMPILATION: You will need a standard C/C++ compiler such as GNU gcc
