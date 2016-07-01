@@ -1,5 +1,31 @@
 # gwggi
 
+PROGRAM: GWGGI
+
+DESCRIPTION: Genome Wide Joint Association Software
+
+AUTHOR: Changshuai Wei
+
+CONTACT: weichangshuai@gmail.com
+
+YEAR: 2011
+
+Precompiled excutable for windows and unix, as well as example data can be found at
+http://changshuaiwei.github.io/software.html#GWGGI
+
+
+COMPILATION: You will need a standard C/C++ compiler such as GNU gcc
+(version 3).
+
+Using TAMW:
+
+gwggi --bfile example --tamw --converge --ntree 2000 --clsf-sqrt --tree-depth 4 --showntree --out ex.rst
+
+Using LRMW:
+
+gwggi --bfile example --lmw --showcv --maxauc 0.99 --out ex.rst
+
+
 ##Data format
 
 GWGGI can read plink binary format, using --bfile filename.
